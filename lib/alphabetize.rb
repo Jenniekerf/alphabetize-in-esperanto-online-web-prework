@@ -1,5 +1,5 @@
 def alphabetize(arr)
-  arr.sort_by {|string| string}
+  arr.sort_by {|a| a.split("").collect{ |char| 
 end
 
 
